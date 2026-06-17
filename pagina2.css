@@ -1,0 +1,13 @@
+/* Estilos específicos da página Sobre */
+.about-hero { display: grid; grid-template-columns: 1.2fr 0.8fr; padding: 80px 10%; align-items: center; gap: 50px; background: #fff; }
+.badge { color: var(--primary); font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 15px; display: block; }
+.highlight { color: var(--primary); }
+
+.circle-badge { background: #fdfdfd; border: 1px solid #eaeaea; width: 200px; height: 200px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+.circle-text { text-align: center; font-size: 12px; font-weight: 700; color: #7f8c8d; letter-spacing: 2px; }
+.circle-divider { color: var(--primary); display: block; border-top: 1px solid #ccc; margin-top: 5px; padding-top: 5px; }
+
+.pilars-section { padding: 80px 10%; }
+.pilars-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+.pilar-card { background: #fff; padding: 25px; border: 1px solid #e5eded; border-radius: 12px; }
+.footer { background: #0b131a; color: #fff; padding: 30px 10%; text-align: center; }
