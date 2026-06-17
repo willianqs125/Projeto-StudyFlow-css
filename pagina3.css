@@ -1,0 +1,11 @@
+/* Estilos específicos da página Dicas */
+.tips-hero { padding: 60px 10%; background: #fff; display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
+.tips-container-grid { padding: 60px 10%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.tip-card-full { background: #fff; padding: 30px; border-radius: 12px; border: 1px solid #e6eceb; transition: 0.3s; }
+.tip-card-full:hover { box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+.tip-card-full h5 { margin: 15px 0 10px 0; }
+
+.number-badge { background: #e8f4f3; color: var(--primary); padding: 5px 12px; border-radius: 50%; font-weight: 700; }
+.number-badge.orange { background: #fdf2e9; color: #e67e22; }
+
+.footer { background: #0b131a; color: #fff; padding: 30px 10%; text-align: center; }
