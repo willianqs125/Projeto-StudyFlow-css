@@ -1,0 +1,9 @@
+/* Estilos específicos da página Ferramentas */
+.tools-hero { padding: 80px 10%; background: #fff; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 50px; }
+.tools-resources-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.resource-box { background: #fff; border: 1px solid #e6eceb; padding: 25px; border-radius: 12px; }
+.resource-box h5 { margin-bottom: 10px; }
+
+.benefits-section { padding: 80px 10%; }
+.benefits-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+.benefit-item h5 { margin-bottom: 8px; color: var(--primary); }
