@@ -1,0 +1,38 @@
+/* Layout do Dashboard */
+.dashboard-layout { display: flex; min-height: 100vh; }
+.sidebar { width: 260px; background-color: #0b131a; color: #ffffff; padding: 30px 20px; }
+.main-content { flex-grow: 1; padding: 40px 50px; background-color: #f4fbf9; }
+
+/* Componentes */
+.tasks-container { background: #ffffff; border-radius: 10px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.01); }
+.todo-form { display: flex; gap: 12px; margin-bottom: 25px; }
+.todo-form input { flex-grow: 1; padding: 14px; border: 1px solid #dcdde1; border-radius: 8px; }
+
+.progress-bar-bg { background: #eee; border-radius: 10px; height: 12px; margin-bottom: 10px; overflow: hidden; }
+.progress-bar-fill { background: #128277; height: 100%; width: 0%; transition: width 0.4s ease; }
+
+.task-list { list-style: none; display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
+.task-item { display: flex; justify-content: space-between; padding: 14px 16px; background: #fafbfc; border-radius: 8px; align-items: center; }
+.task-item.completed { background-color: #f1f5f9; opacity: 0.6; }
+
+.btn-schedule { width: 100%; padding: 10px; background: #e67e22; color: white; border: none; border-radius: 5px; cursor: pointer; }
+.btn-logout { margin-top: 20px; background: transparent; border: 1px solid #fff; color: #fff; padding: 5px 15px; cursor: pointer; }
+/* Estilo profissional para o botão Sair */
+.btn-logout {
+    margin-top: 30px;
+    background: transparent;
+    border: 1px solid #4a5568; /* Borda sutil */
+    color: #a0aec0;            /* Cor cinza claro */
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.btn-logout:hover {
+    background: #e53e3e;       /* Vermelho suave ao passar o mouse */
+    color: #fff;
+    border-color: #e53e3e;
+}
