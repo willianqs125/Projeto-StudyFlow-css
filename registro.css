@@ -1,0 +1,17 @@
+/* Estilos específicos da página Registro */
+body { display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 20px; }
+
+.register-card { background: #ffffff; padding: 40px; border-radius: 12px; border: 1px solid #e6eceb; width: 100%; max-width: 440px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+.header-card { text-align: center; margin-bottom: 30px; }
+.emoji-logo { font-size: 30px; margin-bottom: 10px; }
+.header-card p { color: var(--gray); font-size: 14px; margin-top: 5px; }
+
+.input-group { margin-bottom: 20px; }
+.input-group label { display: block; margin-bottom: 8px; font-weight: 500; font-size: 14px; }
+.input-group input { width: 100%; padding: 12px; border: 1px solid #dcdde1; border-radius: 6px; }
+
+.btn-register { width: 100%; background: var(--primary); color: #fff; padding: 14px; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.btn-google { width: 100%; background: #fff; border: 1px solid #dcdde1; color: var(--dark); padding: 14px; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.divider { text-align: center; margin: 20px 0; color: var(--gray); font-size: 13px; }
+.footer-link { text-align: center; font-size: 13px; margin-top: 20px; }
+.footer-link a { color: var(--primary); font-weight: 600; text-decoration: none; }
